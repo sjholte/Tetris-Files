@@ -1,3 +1,5 @@
+# Sarsa code adapted from existing python code: need to modify inputs and ouputs for Python code
+
 import numpy as np 
 import gym
 
