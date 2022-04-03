@@ -319,8 +319,8 @@ if __name__ == '__main__':
             # Perform one step of the optimization (on the target network)
             if done:
                 # Train model
-                if i_episode % 10 == 0:
-                    log = 'epoch {0} score {1}'.format(i_episode, score)
+                if i_episode % 100 == 0:
+                    log = '{0} {1}'.format(i_episode, score)
                     print(log)
                     f.write(log + '\n')
                     loss = optimize_model()
