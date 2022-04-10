@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  7 13:03:14 2022
-
-@author: seren
-"""
-
 import pygame
 import random
 import numpy as np
